@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="action.js"></script>
+    <link rel="stylesheet" type="text/css" href="home.css">
+  </head>
+  <body onload="openTab(event, 'home')">
+
+    <h2>Welcome to HTML & CSS Demo</h2>
+
+    <div class="tab" >
+      <button class="tablinks" onclick="openTab(event, 'home')" >Home</button>
+      <button class="tablinks" onclick="openTab(event, 'aboutMe')">About Me</button>
+      <button class="tablinks" onclick="openTab(event, 'contactMe')">Contact Me</button>
+      <button class="tablinks" onclick="openTab(event, 'gallery')">Gallery</button>
+    </div>
+
+    <div id="home" class="tabcontent">
+      <p>Welcome to HTML and CSS; Eat - Work - Sleep - Repeat</p>
+    </div>
+
+    <div id="aboutMe" class="tabcontent">
+      <p>My name is Hima Sai Teja Arava. And the nickname is Happy, Integrity and Patience are my best attributes. <br> 
+        Happy believes in the saying " Career Is What You Are Paid For, But Purpose Is What You Are Made For. " <br>
+        () => 'Loves to cook code and learn new things'; <br>
+        A Vocalist - RockMusicFreak, HeavyMetal; Playing with Kids, Cooking. <br>
+        Be-Happy and Make-Happy...!!!</p> 
+    </div>
+
+    <div id="contactMe" class="tabcontent">
+      <p>
+        Email-Id: himasaiteja.arava@zemosolabs.com (or) behappy.hima@gmail.com <br>
+        <a href="">LinkedIn</a> <br>
+        <a href="">Git Account</a>
+      </p>
+    </div>
+
+    <div id="gallery" class="tabcontent">
+      <div class="grid-container">
+        <img class="grid-item" src="happyBun.jpeg" alt="Happy" />
+        <img class="grid-item" src="happyBun.jpeg" alt="Happy" />
+        <img class="grid-item" src="happyBun.jpeg" alt="Happy" />  
+        <img class="grid-item" src="happyBun.jpeg" alt="Happy" />
+        <img class="grid-item" src="happyBun.jpeg" alt="Happy" />
+        <img class="grid-item" src="happyBun.jpeg" alt="Happy" />  
+        <img class="grid-item" src="happyBun.jpeg" alt="Happy" />
+        <img class="grid-item" src="happyBun.jpeg" alt="Happy" />
+      </div>
+    </div>
+  </body>
+</html> 
